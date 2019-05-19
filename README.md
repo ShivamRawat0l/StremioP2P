@@ -100,14 +100,7 @@ No directory found
  - **server.js** came with the stremioSDK and contains the code to start the addon server on the localhost. 
  - **addon.js** is the main file which contains the code for the stremio addon. 
 
-# Working
-```mermaid
-graph LR
-A[Client] -- Hosting --> C((JsonStore))
-C -- Fetch--> D[Addon]
-A --Establised-->D
-D --Connection-->A
-```
+
 # Deploying 
 
 ## - P2PAddon
@@ -120,7 +113,7 @@ D --Connection-->A
 
 
 # Contributers 🧤
-![](https://avatars0.githubusercontent.com/u/27425384?s=400&u=d83889b1e4e0b27672227091b26589393333e5bc&v=4)
+![](https://avatars0.githubusercontent.com/u/27425384?s=400&u=d83889b1e4e0b27672227091b26589393333e5bc&v=4 =200*200)
 > /shivamrawat0l 
 
 
@@ -129,7 +122,7 @@ D --Connection-->A
 *Nothing available right now*  😅
 
 # Follow Me
-![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png =100x100)
 
 
 ![](https://img.shields.io/badge/license-MIT-green.svg)
