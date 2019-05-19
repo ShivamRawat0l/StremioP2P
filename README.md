@@ -1,26 +1,25 @@
 
 # Stremio-P2P
 ![](https://img.shields.io/badge/Status-Under%20Dev-informational.svg) ![](https://img.shields.io/badge/Type-Addon-%238B36DA.svg) ![](https://img.shields.io/badge/Build-Available-green.svg)  ![](https://img.shields.io/badge/Platform-linux%20%7C%20windwos%20%7C%20osx-inactive.svg)
-
 Stremio-P2P is a addon for the stremio platform. It is used to share videos directly without uploading to server and other person can view the video in the stremio. 
 
 > Stremio-Addon for hosting and watching P2P videos
 > P2PClient: for hosting a video .
 > P2PAddon : for stremio to see the hosted videos .
 
-DEMO
-
+# DEMO
+You can see the demo in www.youtube.com/
 # Installation 🤖
 
 ## - P2PClient
 
-[P2PClient](http://www.github.com/) is a software which is used to host the video file online. 
+[P2PClient](https://github.com/ShivamRawat0l/StremioP2P/releases/tag/1.0.0) is a software which is used to host the video file online. 
 
 > After hosting the video to host another please close the client and then restart it 
 
 ### -- Installation : 
 
- - Download the software corresponding to your operating system from here .
+ - [Download](https://github.com/ShivamRawat0l/StremioP2P/releases/tag/1.0.0) the software corresponding to your operating system from here .
  - Select the file and host.
  - The video should be online.
  ### -- Errors : 
@@ -113,7 +112,10 @@ No directory found
 
 
 # Contributers 🧤
-![](https://avatars0.githubusercontent.com/u/27425384?s=400&u=d83889b1e4e0b27672227091b26589393333e5bc&v=4 =200*200)
+
+<img src="https://avatars0.githubusercontent.com/u/27425384?s=400&u=d83889b1e4e0b27672227091b26589393333e5bc&v=4" alt="drawing" style="width:100px;"/>
+
+
 > /shivamrawat0l 
 
 
@@ -122,8 +124,17 @@ No directory found
 *Nothing available right now*  😅
 
 # Follow Me
-![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png =100x100)
+<a href="http://www.github.com/ShivamRawat0l">
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="30px">
+</a>  
 
+# Upcoming Updates
+
+ - Option for series and others will be available
+ - More feedback to the user when hosting the video
+ - New Design
+ - Adding MetaData to the stremioAddon
+ - And Much More
 
 ![](https://img.shields.io/badge/license-MIT-green.svg)
 #####  MIT License
