@@ -1,7 +1,6 @@
 
 # Stremio-P2P
 ![](https://img.shields.io/badge/Status-Under%20Dev-informational.svg) ![](https://img.shields.io/badge/Type-Addon-%238B36DA.svg) ![](https://img.shields.io/badge/Build-Available-green.svg)  ![](https://img.shields.io/badge/Platform-linux%20%7C%20windwos%20%7C%20osx-inactive.svg)
-
 Stremio-P2P is a addon for the stremio platform. It is used to share videos directly without uploading to server and other person can view the video in the stremio. 
 
 > Stremio-Addon for hosting and watching P2P videos
@@ -10,6 +9,8 @@ Stremio-P2P is a addon for the stremio platform. It is used to share videos dire
 
 # DEMO
 You can see the demo in www.youtube.com/
+# Prerequisites
+
 # Installation 🤖
 
 ## - P2PClient
@@ -20,7 +21,9 @@ You can see the demo in www.youtube.com/
 
 ### -- Installation : 
 
- - [Download](https://github.com/ShivamRawat0l/StremioP2P/releases/tag/1.0.0) the software corresponding to your operating system from here .
+ - [Download](https://github.com/ShivamRawat0l/StremioP2P/releases/tag/1.0.0) the software.
+ - DONT INSTALL IT IN C: DRIVE ( INSTALL WHERE ADMIN PERMISSION IS NOT REQUIRED )
+ - Paste these 
  - Select the file and host.
  - The video should be online.
  ### -- Errors : 
@@ -31,15 +34,13 @@ You can see the demo in www.youtube.com/
 > Watch the tutorial, if any error persist  you can raise a issue .
 
 ## - P2PAddon
+P2PAddon is hosted online [https://node-server-hogl9g5qa.now.sh/](https://node-server-hogl9g5qa.now.sh/)
 
-
-[P2PClient](http://www.github.com/) is a addon for stremio which get the file hosted using P2PClient and display it on the stemioCatalog. 
+[P2PAddon](https://stremio-server.shivamrawat6670.now.sh/) is a addon for stremio which get the file hosted using P2PClient and display it on the stemioCatalog. 
 
 ### -- Installation : 
 
- - Open Stemio.
- - Goto addons. Top Right.
- - On the left side paste this link
+ - [Install](https://node-server-hogl9g5qa.now.sh/) the Addon 
  - Goto Discover
  - Movies and then P2P.
  - It would take a while and then all the video that are being hosted shows up.
@@ -47,6 +48,7 @@ You can see the demo in www.youtube.com/
  ### -- Errors : 
  
  - ERROR:  There is no information about this.  (Fixing)
+ - If the addon does not work clone the addonOn from github and run `npm install` then  `npm start` .  Then manually add the addon in the stremio.  
 
 
 > Watch the tutorial, if any error persist  you can raise a issue .
