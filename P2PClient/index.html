@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      
+      <link rel="stylesheet" href="node_modules/xel/themes/material.css">
+      <link rel="stylesheet" href="node_modules/xel/themes/vanilla.css">
+      <link rel="stylesheet" href="node_modules/xel/themes/macos.css">
+    <meta charset="UTF-8">
+    <title>P2P Client</title>
+    <script src="node_modules/xel/xel.min.js"></script>
+
+  </head>
+  <body style="background-color: #1B1126 ;-webkit-app-region: drag;width: 100%;height: 95%; color:white;" >
+    <div style="height:30px;background-color: #633F7E;padding-top:5px;padding-left: 10px;display: inline-block;">
+    <div style="display: inline-block;">
+
+      Stremio AddOn
+ </div>
+       <div style="display: inline-block;margin-left:180px;color:lightblue;">Help</div>
+       <div  class="exitbutton" style="-webkit-app-region: no-drag;display: inline-block;color:red;padding-top:5px;margin-left:30px;">
+        <x-icon style="padding-right: 20px;"  name="close">
+        </x-icon>
+      </div>
+
+      </p>
+    </div>
+<div style=" border : 2px #562F6E solid; width:99%;height: 99%;">
+    <p style="font-weight: 800;">
+    <strong style="padding-top: 10px;padding-left:20px;font-weight: 900;font-size: 48px;">P2P Client</strong>
+    </p>
+   
+
+   <div id="drag-file" style="-webkit-app-region: no-drag;margin-top:20px; margin-left:auto;margin-right: auto;text-align:center;height:130px;width: 300px;border-color: purple ; border-style: dotted;">
+    <div style="margin:auto;margin-top: 30px;margin-bottom: 20px;">Drag and drop</div>
+    <label id="#bb"> Enter Your File
+        <input type="file" id="File" size="60" accept=".mp4,.mkv,application/vlc,.flv" >
+        </label> 
+
+     </div>
+     <div style="-webkit-app-region: no-drag;margin-top: 20px;margin-left: auto; margin-right:auto;width: 90%;">
+      <div style="width:100%;">
+      <input class="nameVideo" style="width: 99%;background-color: #201F32;font-size: 14px;color:white;" placeholder="Name of video">
+
+          </input>
+        </div>  
+      <x-textarea class="description" style="background-color: #201F32;font-size: 16px;color:white;margin-top:20px;">
+          <x-label>Description</x-label>
+        </x-textarea>
+     
+    </div>
+
+    <div style="-webkit-app-region: no-drag;margin-left:150px;align-items:center;text-align:center;justify-content:center;margin-top:40px;">
+
+      <x-select class="select-option">
+        <x-menu>
+          <x-menuitem value="Movies" class="Movies">
+            <x-label>Movies</x-label>
+          </x-menuitem>
+      
+          <x-menuitem value="Series" class="Series" disabled>
+            <x-label>Series</x-label>
+          </x-menuitem>
+          <x-menuitem value="Others" class="Others" disabled>
+            <x-label>Others</x-label>
+          </x-menuitem>
+      
+          
+        </x-menu>
+      </x-select>
+        </div>
+    <div style="-webkit-app-region: no-drag;align-items:center;text-align:center;justify-content:center;margin-top:40px;">
+
+ 
+        <x-button class="hostbutton" onclick="runaserver()">
+            <x-label>Host</x-label>
+          </x-button>
+      
+          </div>
+      
+    
+
+
+        
+
+     <div class="borderline">
+<div style="position: absolute;left:2%;bottom:2%;" class="file-path" >
+   No file 
+   
+      <div class="file-status"></div>
+
+</div>
+
+  <div class="connections" style="position: absolute;right:2%;bottom:2%;">
+      <div class="connection-status"></div>
+      Disconnected
+  </div>
+</div> 
+    <script src="./renderer.js"> </script>
+  </div>
+  </body>
+ <script>
+   (function () {
+    
+
+    document.getElementById('drag-file').ondragover = () => {
+        return false;
+    };
+
+    document.getElementById('drag-file').ondragleave = () => {
+        return false;
+    };
+
+    document.getElementById('drag-file').ondragend = () => {
+        return false;
+    };
+
+    
+})();
+
+
+  
+ console.log("wrokgin")</script>
+ <style>
+   label{
+    padding: 10px;
+    border-radius: 5px;
+    background: purple; 
+    display: -moz-box;
+    color:black;
+     }
+
+
+      x-button {
+  -webkit-app-region: no-drag;
+}
+input[type="file"] {
+    display: none;
+}
+   .connection-status{
+     width: 1px;
+     background-color:red;
+     height: 1px;
+     border-radius: 10px;
+     margin-right: 10px;
+   }
+    .file-status{
+     width: 1px;
+    
+     height: 1px;
+     border-radius: 10px;
+     margin-left: 10px;
+   }
+ div x-button{
+    display:inline-block;
+}
+.borderline div{
+  border-color:black;
+  border-style: dotted;
+  border-spacing: 3px;
+  border-width: 1px;
+  padding:4px;
+    display:inline-block;
+}
+.body{
+  color:black;
+}
+</style>
+</html>
