@@ -1,6 +1,7 @@
 
 # Stremio-P2P
 ![](https://img.shields.io/badge/Status-Under%20Dev-informational.svg) ![](https://img.shields.io/badge/Type-Addon-%238B36DA.svg) ![](https://img.shields.io/badge/Build-Available-green.svg)  ![](https://img.shields.io/badge/Platform-linux%20%7C%20windwos%20%7C%20osx-inactive.svg)
+
 Stremio-P2P is a addon for the stremio platform. It is used to share videos directly without uploading to server and other person can view the video in the stremio. 
 
 > Stremio-Addon for hosting and watching P2P videos
