@@ -9,8 +9,9 @@ Stremio-P2P is a addon for the stremio platform. It is used to share videos dire
 > P2PAddon : for stremio to see the hosted videos .
 
 # DEMO
-You can see the demo in www.youtube.com/
-# Prerequisites
+You can see the demo in https://youtu.be/fFs1MNHoXFw
+
+
 
 # Installation 🤖
 
