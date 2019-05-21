@@ -19,7 +19,9 @@ You can see the demo in https://youtu.be/fFs1MNHoXFw
 
 [P2PClient](https://github.com/ShivamRawat0l/StremioP2P/releases/tag/1.0.0) is a software which is used to host the video file online. 
 
-> After hosting the video to host another please close the client and then restart it 
+> You have to turn off the firewall to host the video 
+
+> After hosting the video,  to host again another video  please close the client and then restart it 
 
 ### -- Installation : 
 
@@ -30,8 +32,11 @@ You can see the demo in https://youtu.be/fFs1MNHoXFw
  - The video should be online.
  ### -- Errors : 
  
+ - You have to turn off the firewall to host the video 
  - Make sure no process is running in the port 8002.
  - If not shown in the stremioAddon try closing and restarting the client.
+
+
 
 > Watch the tutorial, if any error persist  you can raise a issue .
 
