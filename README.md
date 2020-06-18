@@ -41,13 +41,13 @@ You can see the demo in https://youtu.be/fFs1MNHoXFw
 > Watch the tutorial, if any error persist  you can raise a issue .
 
 ## - P2PAddon
-P2PAddon is hosted online [node-server-jbopvpztv.now.sh](node-server-jbopvpztv.now.sh)
+P2PAddon is hosted online [node-server-jbopvpztv.now.sh](https://node-server-jbopvpztv.now.sh/)
 
-[P2PAddon](node-server-jbopvpztv.now.sh) is a addon for stremio which get the file hosted using P2PClient and display it on the stemioCatalog. 
+[P2PAddon](https://node-server-jbopvpztv.now.sh/) is a addon for stremio which get the file hosted using P2PClient and display it on the stemioCatalog. 
 
 ### -- Installation : 
 
- - [Install](node-server-jbopvpztv.now.sh) the Addon 
+ - [Install](https://node-server-jbopvpztv.now.sh/) the Addon 
  - Goto Discover
  - Movies and then P2P.
  - It would take a while and then all the video that are being hosted shows up.
